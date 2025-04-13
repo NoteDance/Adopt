@@ -36,6 +36,7 @@ This TensorFlow implementation is adapted from the PyTorch version available in 
 
 ```python
 import tensorflow as tf
+from adopt import Adopt
 
 # Initialize the ADOPT optimizer
 optimizer = Adopt(
